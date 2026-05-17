@@ -82,8 +82,9 @@
                     </VerticalStackLayout>
                 </Frame>
 
-                <Button Text="Avançar" TextColor="Red" BorderWidth="2" BorderColor="IndianRed"  />
+                <Button Text="Avançar" TextColor="Red" BorderWidth="2" BorderColor="IndianRed" Clicked="Button_Clicked"/>
 
+                <Button Text="Quem somos" TextColor="Red" BorderWidth="1" BorderColor="IndianRed" Clicked="Button_Clicked_1"/>
             </VerticalStackLayout>
         </Frame>
 

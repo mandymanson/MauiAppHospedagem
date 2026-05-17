@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHospedagem.Views.Sobre"
+             Title="Sobre">
+    
+    <VerticalStackLayout>
+        <Label 
+                Text="Quem Somos"
+                FontSize="32"
+                FontAttributes="Bold"
+                TextColor="DarkRed"
+                HorizontalOptions="Center"/>
+
+        <Frame BackgroundColor="LightGray"
+                   CornerRadius="15"
+                   Padding="20">
+
+            <VerticalStackLayout Spacing="10">
+
+                <Label 
+                        Text="Nossa História"
+                        FontSize="22"
+                        FontAttributes="Bold"/>
+
+                <Label 
+                        Text="Somos uma empresa especializada em hospedagem e reservas, oferecendo conforto, praticidade e segurança para nossos clientes. Nosso objetivo é proporcionar uma experiência simples e eficiente na contratação de hospedagens."
+                        FontSize="16"/>
+
+                <Label 
+                        Text="Missão"
+                        FontSize="22"
+                        FontAttributes="Bold"/>
+
+                <Label 
+                        Text="Facilitar a busca e contratação de hospedagens de maneira rápida e acessível."
+                        FontSize="16"/>
+
+                <Label 
+                        Text="Visão"
+                        FontSize="22"
+                        FontAttributes="Bold"/>
+
+                <Label 
+                        Text="Ser referência em tecnologia e qualidade no setor de hospedagem."
+                        FontSize="16"/>
+
+            </VerticalStackLayout>
+
+        </Frame>
+
+    </VerticalStackLayout>
+
+</ContentPage>
