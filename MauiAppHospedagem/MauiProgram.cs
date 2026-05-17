@@ -13,6 +13,8 @@ namespace MauiAppHospedagem
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("GrenzeGotisch-VariableFont_wght.ttf", "GrenzeGotisch");
+
                 });
 
 #if DEBUG
